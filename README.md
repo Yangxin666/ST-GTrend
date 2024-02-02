@@ -3,7 +3,7 @@ This repository contains the code for the reproducibility of the experiments pre
 In this paper, we propose a novel Spatio-Temporal Dynamic Graph Neural Networks (ST-GTrend) framework for long-term trend analysis and achieve state-of-the-art results on spatio-temporal datasets.
 
 
-<h2 align=Left>st-DynGNN in a nutshell</h2>
+<h2 align=Left>ST-GTrend in a nutshell</h2>
 
 Our paper introduces __ST-GTrend__, which integrates spatiotemporal coherence and graph attention to separate PLR as a long-term “aging” trend from multiple fluctuation terms in the PV input data. 
 To cope with diverse degradation patterns in timeseries, st-DynGNN adopts a paralleled graph autoencoder array to extract aging and fluctuation terms simultaneously. 
