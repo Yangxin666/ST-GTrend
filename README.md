@@ -13,7 +13,7 @@ flatness and smoothness regularization to ensure the disentanglement between agi
 <p align="center"><img src="Framework.png"></p>
 
   
-**Fig. 1: Overview of st-DynGNN Imputation Framework.**
+**Fig. 1: Overview of ST-GTrend Framework.**
 
 
 ## Organization of the code
