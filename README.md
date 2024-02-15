@@ -11,10 +11,14 @@ To further improve the accuracy, ST-GTrend imposes
 flatness and smoothness regularization to ensure the disentanglement between aging and fluctuation.
 
 <p align="center"><img src="Framework.png"></p>
-
   
 **Fig. 1: Overview of ST-GTrend Framework.**
 
+We also proposes __Para-GTrend__ for large-scale PV systems analysis, a parallel algorithm to accelerate the training and inference of ST-GTrend. Para-GTrend scales the analysis to large PV systems.
+
+<p align="center"><img src="Framework.png"></p>
+  
+**Fig. 2: Overview of ST-GTrend Framework.**
 
 ## Organization of the code
 
@@ -25,7 +29,7 @@ We have evaluated our proposed model on PV datasets with three different degrada
   
 <p align="center"><img src="Case2_RDP_EDP_new.png"></p>
 
-**Fig. 2: Example of Extracted Aging (in red) and Fluctua- tion Terms (in black) by ST-GTrend for a PV System (Case 2 linear with breakpoint degradation pattern shown above).**
+**Fig. 3: Example of Extracted Aging (in red) and Fluctua- tion Terms (in black) by ST-GTrend for a PV System (Case 2 linear with breakpoint degradation pattern shown above).**
 
 
 ## Prerequisites
