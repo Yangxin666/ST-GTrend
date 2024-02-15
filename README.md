@@ -12,13 +12,14 @@ flatness and smoothness regularization to ensure the disentanglement between agi
 
 <p align="center"><img src="Framework.png"></p>
   
-<p><strong>Fig. 1: Overview of ST-GTrend Framework.</strong></p>
+**Fig. 1: Overview of ST-GTrend Framework.**
 
 We also proposes __Para-GTrend__ for large-scale PV systems analysis, a parallel algorithm to accelerate the training and inference of ST-GTrend. Para-GTrend scales the analysis to large PV systems.
 
 <p align="center"><img src="Para_st_DynGNN.png"></p>
   
-**Fig. 2: Overview of ST-GTrend Framework.**
+**Fig. 2: Para-GTrend (𝑘 = 3 for illustration: one
+aging channel and three fluctuation channels).**
 
 ## Organization of the code
 
